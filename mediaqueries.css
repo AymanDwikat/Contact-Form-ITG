@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding-bottom: 40px;
+  }
+
+  .row {
+    flex-direction: column;
+    margin-top: 5px;
+  }
+
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .heading {
+    padding-top: 70px;
+  }
+
+  .heading h2 {
+    font-size: 2rem;
+    letter-spacing: 1.4px;
+  }
+
+  .heading p {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    top: 62px;
+  }
+}

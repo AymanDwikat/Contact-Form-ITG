@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery task</title>
+    <link rel="icon" type="image/x-icon" href="jquery-4.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- Import jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h2>Contact Us</h2>
+        <p>Get in Touch</p>
+      </div>
+
+      <div class="containerForm">
+        <form id="contactForm">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name.."
+              />
+              <span class="error" id="nameError"></span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Your email.."
+              />
+              <span class="error" id="emailError"></span>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="message">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message.."
+                style="height: 200px"
+              ></textarea>
+              <span class="error" id="messageError"></span>
+            </div>
+          </div>
+
+          <br />
+
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+  </body>
+</html>
