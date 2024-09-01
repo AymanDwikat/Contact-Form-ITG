@@ -1,2 +1,2 @@
 # Demo
-[Preview the design here](https://ayman-dwikat.github.io/jQuery_ITG/)
+[Preview the design here](https://ayman-dwikat.github.io/jQuery-ITG/)
