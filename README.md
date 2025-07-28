@@ -24,4 +24,4 @@ This project is a contact form created using **HTML**, **CSS**, and **jQuery**, 
   - Built using **CSS** for clean and responsive styling.
   
 ### Demo
-- [Preview the form here](https://ayman-dwikat.github.io/Contact-Form-ITG/)
+- [Preview the form here](https://aymandwikat.github.io/Contact-Form-ITG/)
